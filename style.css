@@ -1,11 +1,18 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
   box-sizing: border-box;
 }
 
+p.prueba{
+  
+  
+
+  justify-content: center;
+}
+
 body {
-  background-color: lightgray;
+  background-image: url("ENCRIPTADO.jpg");
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

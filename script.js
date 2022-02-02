@@ -60,3 +60,14 @@ function desencriptar(){
     document.getElementById("msg").value = d2;
 }
 
+function copiar(){
+    var cop = document.getElementById("msg");
+
+    cop.select();
+    cop.setSelectionRange(0, 999999);
+
+    navigator.clipboard.writeText(cop.value);
+
+    alert("Copied the text: " + cop.value);
+}
+
